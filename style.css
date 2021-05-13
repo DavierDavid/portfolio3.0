@@ -1,0 +1,39 @@
+#borderimg1 { 
+    /*border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images/border.png) 30 round;
+    height: 70px;*/
+    max-width: 100%;
+    min-width: 25%;
+    background-color: green;
+  }
+
+#test-img{
+    max-width: 100%;
+    min-width: 50%;
+    border: 20px solid transparent;
+    padding: 5px;
+    border-radius: 30px;
+    border-image: url(images/border.png) 30 round;
+}
+
+@media (max-width: 700px) {
+    /* mobile CSS: hide .desktop div */
+    .desktop {
+      display: none;
+    }
+  }
+
+  @media (min-width: 700px) {
+    /* desktop CSS: hide .mobile div */
+    .mobile {
+      display: none;
+    }
+  }
+
+
+/*
+
+
+
+*/
