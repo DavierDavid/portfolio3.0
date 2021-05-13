@@ -8,14 +8,14 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- animate.js -->
+    <link rel="stylesheet" href="animate.min.css">
+
     <!-- google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <!-- animate.js -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-    <!-- splide.js & stylesheet-->
+    <!-- splide.js stylesheet-->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 
@@ -28,10 +28,10 @@
 
     <div id="nav-bar">
         <ul id="menu">
-            <li class="menu-logo"><a href="#"><img src="images/icons/logo.png" alt="logo" width="100%"></a></li>
-            <li class="menu-item"><a href="#" class="menu-link title" id="contact-link">Contact</a></li>
-            <li class="menu-item"><a href="#" class="menu-link title" id="about-link">About</a></li>
-            <li class="menu-item"><a href="#" class="menu-link title" id="work-link">Work</a></li>
+            <li class="menu-logo animate__animated animate__bounceIn animate__delay-1s"><a href="#"><img src="images/icons/logo.png" alt="logo" width="100%"></a></li>
+            <li class="menu-item animate__animated animate__fadeInBottomLeft animate__delay-2s"><a href="#" class="menu-link title" id="contact-link">Contact</a></li>
+            <li class="menu-item animate__animated animate__fadeInBottomLeft animate__delay-2s"><a href="#" class="menu-link title" id="about-link">About</a></li>
+            <li class="menu-item animate__animated animate__fadeInBottomLeft animate__delay-2s"><a href="#" class="menu-link title" id="work-link">Work</a></li>
         </ul>
     </div>
 
@@ -45,13 +45,13 @@
     </div> -->
 
     <div id="home-content">
-        <ul id="first-row">
-            <li class="home-button"><a href="#"><img src="images/icons/work.png" alt="work image" width="30%"></a></li>
-            <li class="home-button"><a href="#"><img src="images/icons/about.png" alt="about image" width="30%"></a></li>
-        </ul>
-        <ul id="second-row">
-            <li class="home-button"><a href="#"><img src="images/icons/contact.png" alt="contact image" width="30%"></a></li>
-        </ul>
+        <div id="first-row">
+            <div class="home-button animate__animated animate__bounceInLeft"><a href="#"><img src="images/icons/work.png" alt="work image" width="100%" class="animate__animated animate__tada animate__delay-2s animate__repeat-1"></a></div>
+            <div class="home-button animate__animated animate__bounceInRight"><a href="#"><img src="images/icons/about.png" alt="about image" width="100%" class="animate__animated animate__wobble animate__delay-4s animate__repeat-1"></a></div>
+        </div>
+        <div id="second-row">
+            <div class="home-button animate__animated animate__bounceInLeft"><a href="#"><img src="images/icons/contact.png" alt="contact image" width="100%" class="animate__animated animate__jello animate__delay-5s animate__repeat-1"></a></div>
+        </div>
     </div>
 
 
@@ -89,6 +89,8 @@
 
 
     <!-- END MOBILE -->
+
+    
 
 </body>
 </html>
