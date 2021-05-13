@@ -1,3 +1,13 @@
+
+html, body{
+  background-color: #FDEDED;
+  font-family: 'Lato', sans-serif;
+}
+
+.title{
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
 #borderimg1 { 
     /*border: 10px solid transparent;
     padding: 15px;
