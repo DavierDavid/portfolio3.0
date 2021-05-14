@@ -15,8 +15,8 @@ footer{
   font-family: 'Noto Sans SC', sans-serif;
   font-size: 14px;
   width: 100%;
-  position: absolute;
-  bottom: 1px;
+  margin-top: 50px;
+  margin-bottom: -50px;
   color: rgba(150, 13, 52, 0.5);
 }
 
@@ -61,11 +61,17 @@ a.menu-link:visited, a.menu-link:link{
   color: #EF7557;
 }
 
-
 .menu-logo{
   display: block;
   float: left;
   width: 20%;
+}
+
+.menu-logo-mobile{
+  display: block;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 3%;
 }
 
 #first-row, #second-row{
@@ -82,24 +88,10 @@ a.menu-link:visited, a.menu-link:link{
   margin: 0 8%;
 }
 
-
-#borderimg1 { 
-    /*border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(images/border.png) 30 round;
-    height: 70px;*/
-    max-width: 100%;
-    min-width: 25%;
-    background-color: green;
-  }
-
-#test-img{
-    max-width: 100%;
-    min-width: 50%;
-    border: 20px solid transparent;
-    padding: 5px;
-    border-radius: 30px;
-    border-image: url(images/border.png) 30 round;
+.home-button-mobile{
+  display: block;
+  width: 55%;
+  margin: auto;
 }
 
 @media (max-width: 700px) {
@@ -109,7 +101,7 @@ a.menu-link:visited, a.menu-link:link{
     }
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 701px) {
     /* desktop CSS: hide .mobile div */
     .mobile {
       display: none;
@@ -118,7 +110,6 @@ a.menu-link:visited, a.menu-link:link{
 
 
 /*
-
 
 
 */
