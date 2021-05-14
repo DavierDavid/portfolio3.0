@@ -20,11 +20,21 @@ footer{
   color: rgba(150, 13, 52, 0.5);
 }
 
+h3{
+  font-size: 26px;
+}
+
 /*------------- DESKTOP --------------*/
 
-#nav-bar, #home-content{
+#nav-bar, #home-content, #about-content{
   width: 60%;
   margin: 0 auto;
+}
+
+#about-header, #about-edu, #about-family{
+  width: 60%;
+  margin: 3% auto;
+  overflow: hidden;
 }
 
 #menu{
@@ -74,6 +84,15 @@ a.menu-link:visited, a.menu-link:link{
   padding-bottom: 3%;
 }
 
+.menu-item-mobile{
+  display: block;
+  text-decoration: none;
+  margin: 4% auto;
+  font-size: 24px;
+  width: 30%;
+  text-align: center;
+}
+
 #first-row, #second-row{
   display: block;
   list-style: none;
@@ -93,6 +112,85 @@ a.menu-link:visited, a.menu-link:link{
   width: 55%;
   margin: auto;
 }
+
+#header-img{
+  display: block;
+  float: left;
+  width: 30%;
+}
+
+#header-img-mobile{
+  display: block;
+  margin: 5% auto;
+}
+
+#profile-pic{
+  margin: auto;
+}
+
+#header-textbox{
+  display: block;
+  float: right;
+  width: 70%;
+  margin-top: 5%;
+}
+
+#header-textbox-mobile{
+  display: block;
+  width: 100%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+#header-desc-mobile{
+  font-size: 22px;
+  text-align: left;
+}
+
+.h3-mobile{
+  text-align: center;
+}
+
+#edu-textbox, #ff-textbox{
+  font-size: 22px;
+}
+
+#header-title, #header-desc{
+  width: 90%;
+  margin: auto;
+  padding: 3% ; 
+}
+
+#header-title{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#header-desc{
+  font-size: 22px;
+}
+
+.grad-pics, .poly-pics, .poly-pics-mobile{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.poly-pics, .poly-pics-mobile{
+  padding: 2% 0;
+}
+
+.poly-pics-mobile, .grad-pics-mobile{
+  width: 100%;
+}
+
+#mobile-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 
 @media (max-width: 700px) {
     /* mobile CSS: hide .desktop div */
