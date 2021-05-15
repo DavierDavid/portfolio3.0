@@ -24,6 +24,14 @@ h3{
   font-size: 26px;
 }
 
+h2{
+  font-weight: normal;
+  font-size: 42px;
+  text-align: center;
+  font-family: 'Noto Sans SC', sans-serif;
+  margin-bottom: 6%;
+}
+
 /*------------- DESKTOP --------------*/
 
 #nav-bar, #home-content, #about-content{
@@ -35,6 +43,13 @@ h3{
   width: 60%;
   margin: 3% auto;
   overflow: hidden;
+}
+
+#contact-content{
+  width: 60%;
+  margin: 1% auto 0 auto;
+  overflow: hidden;
+  text-align: center;
 }
 
 #menu{
@@ -190,6 +205,29 @@ a.menu-link:visited, a.menu-link:link{
   padding: 0;
   overflow: hidden;
 }
+
+.social-icon{
+  width: 22%;
+  padding: 0 1%;
+  display: inline-block;
+}
+
+.mail-icon{
+  margin-top: 3%;
+  text-align: center;
+}
+
+.social-icon-mobile{
+  width: 45%;
+  padding: 1%;
+  display: inline-block;
+}
+
+.mail-icon-mobile{
+  margin-top: 3%;
+  text-align: center;
+}
+
 
 
 @media (max-width: 700px) {
