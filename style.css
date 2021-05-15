@@ -265,6 +265,27 @@ a.menu-link:visited, a.menu-link:link, a.work-links{
   border-radius: 8%;
 }
 
+.tall-img{
+  margin: auto;
+  text-align: center;
+  background-color: #3581B8;
+  width: 100%;
+  height: auto;
+}
+
+.work-textbox{
+  width: 70%;
+  margin: auto;
+  font-size: 24px ;
+}
+
+.work-textbox-mobile{
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+}
+
+
 
 @media (max-width: 700px) {
     /* mobile CSS: hide .desktop div */
